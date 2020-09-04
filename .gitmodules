@@ -1,3 +1,3 @@
 [submodule "full-stack-test-task"]
-	path = full-stack-test-task
+	path = client
 	url = https://github.com/Rostyslav99/full-stack-test-task.git
