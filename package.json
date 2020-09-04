@@ -1,0 +1,29 @@
+{
+  "name": "aionys",
+  "version": "1.0.0",
+  "description": "test task",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm run start --prefix client",
+    "client:install": "npm install --prefix client",
+    "client:build": "npm run build --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "js",
+    "react",
+    "node"
+  ],
+  "author": "Rostyslav",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+    "uuidv4": "^6.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
