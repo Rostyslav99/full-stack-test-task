@@ -13,12 +13,13 @@ To clone repository
 
 Server runs on port 5000 [http://localhost:5000](http://localhost:5000)
 
+
+--To run client app
 ### `cd client`
 ### `npm run start`
 
-
---To run client app
 Client runs on port 3000[http://localhost:3000](http://localhost:3000)
+
 
 --To run server and client together
 
